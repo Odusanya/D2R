@@ -1,7 +1,6 @@
 .header {
     width: 100%;
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     line-height: 1.23;
     font-family: $regular-font;
@@ -12,8 +11,6 @@
         background-color: #F9F9F9;
         font-size: 1.3rem;
         top: 0;
-        // display: flex;
-        // justify-content: space-between;
         color: $light-black;
     }
     &--second {
@@ -21,15 +18,11 @@
         background-color: transparent;
     }
     &--left {
-        // float: left;
     }
     &--right {
-        // float: left;
     }
     &--logo {
         display: flex;
-        // font-size: 1.4rem;
-        // margin: 0 auto;
         align-items: center;
     }
     &__item {

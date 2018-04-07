@@ -8,12 +8,9 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    // flex-direction: column;
 }
 
 .centered {
-    // display: flex;
-    // justify-content: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -32,12 +29,10 @@
 }
 
 .flex-center {
-    // display: flex;
     align-items: center;
 }
 
 .flex-spaced {
-    // display: flex;
     justify-content: space-between;
 }
 
@@ -362,7 +357,6 @@
     >div {
         height: 100%;
         overflow: auto;
-        // border: transparent;
     }
 }
 
@@ -397,17 +391,6 @@
     font-weight: 500;
 }
 
-.sortable-placeholder {
-    background-color: #f8f8f8;
-    border: 2px solid #eee;
-    border-radius: 2px;
-    // height: 50px;
-    margin: 15px 0;
-}
-
-.sortable-dragging {
-    // background-color: red;
-}
 
 .handle {
     display: flex;

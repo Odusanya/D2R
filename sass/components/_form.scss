@@ -1,20 +1,8 @@
 .form {
-    // input {
-    //  background-color: none;
-    //  outline: none;
-    //  &:focus {
-    //      border: none;
-    //      border-bottom: 1px solid red;
-    //  }
-    // }
     &-btn {
         margin-top: 8px;
     }
     &-header {
-        // display: flex;
-        // justify-content: space-between;
-        // vertical-align: middle;
-        // align-items: center;
         .logo {
             position: relative;
             left: 50%;
@@ -72,9 +60,6 @@
             display: flex;
             justify-content: space-between;
             flex: 0 1 calc(25% - 1em);
-            // &:first-of-type {
-            //     align-self: flex-end;
-            // }
         }
     }
 }

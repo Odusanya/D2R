@@ -5413,13 +5413,6 @@ select {
   font-weight: 500;
 }
 
-.sortable-placeholder {
-  background-color: #f8f8f8;
-  border: 2px solid #eee;
-  border-radius: 2px;
-  margin: 15px 0;
-}
-
 .handle {
   display: flex;
   flex-direction: column;

@@ -20,12 +20,10 @@
     position: relative;
     &-icon {
         position: relative;
-        // -ms-flex-negative: 0;
         flex-shrink: 0;
         margin: 0;
         align-items: center;
         display: flex;
-        // margin: 0 0 0 16px;
     }
 }
 
@@ -54,8 +52,6 @@
     white-space: nowrap;
 }
 
-// .table-hover>tbody>tr:hover
-
 .table {
     thead {
         border-color: #fff;
@@ -83,18 +79,10 @@
 }
 
 .table>thead>tr>th {
-    // padding: 13px 30px;
-    // padding-left: 30px;
-    // border-bottom: 1px solid #eaeff0;
-    // font-weight: 400;
-    // color: #57584E;
 }
 
 .table>tbody>tr>td, .table>tfoot>tr>td {
-    // padding: 13px 30px;
-    // padding: 15px;
-    // border-top: 1px solid #eaeff0;
-    // padding-left: 30px;
+
 }
 
 .table>thead>tr>th {

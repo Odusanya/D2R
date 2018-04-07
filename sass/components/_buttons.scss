@@ -2,7 +2,6 @@
     min-height: $button-height;
     border-radius: $button-default-radius;
     border: 0px;
-    // font-weight: bold;
     font-size: 1.6rem;
     user-select: none;
     transition: all 300ms;
@@ -27,7 +26,6 @@
     &-has-outline-no-hover {
         &:hover {
             color: #000;
-            // font-weight: bold;
             background-color: rgb(244, 242, 242);
             transform: none!important;
             box-shadow: none !important;
@@ -38,14 +36,12 @@
         font-size: 1.4rem !important;
     }
     &:hover {
-        // box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
-        // transform: translateY(-1px);
         transform: none;
         box-shadow: none;
     }
     &-success {
         background-color: $dark-green;
-        border: $dark-green; // border-color: #3bb75e;
+        border: $dark-green;
         &:hover {
             background-color: darken($dark-green, 5%);
             border: darken($dark-green, 5%);
@@ -172,20 +168,20 @@
 }
 
 input[type=file] {
-    display: flex; // border-radius: 10px !important;
+    display: flex;
 }
 
 input[type=file]::-webkit-file-upload-button {
     background-color: #fff;
     font-size: 1.4rem;
-    font-weight: bold; // font-family: color: $body-text-color;
+    font-weight: bold;
     font-family: $regular-font;
     border: 1px solid $border-color;
     border-radius: 2px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    cursor: pointer; // margin-right: 15px;
+    cursor: pointer;
 }
 
 .btn-link {

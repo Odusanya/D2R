@@ -10,8 +10,6 @@
     .dashboard-content {
         position: relative;
         background-color: transparent;
-        // height: calc(100vh - 60px);
-        // padding-bottom: 0px !important;
     }
     
     .filter-group {
@@ -42,7 +40,6 @@
     /* This containers styling for the Guides Page */
     
     .filter-parameters-wrap {
-        // border: 1px solid $border-color;
         padding: 15px;
         width: 100%;
         position: relative;
@@ -57,9 +54,7 @@
             position: relative;
         }
         &-menu {
-            // display: none;
             position: absolute;
-            // top: 5px;
             right: 5px;
         }
     }
@@ -73,7 +68,6 @@
         &-container {
             border-radius: 3px;
             overflow: hidden;
-            // cursor: pointer;
         }
         &-header {
             max-height: 180px;
@@ -87,7 +81,6 @@
                 margin-right: 15px;
                 border: 1px solid rgba(255, 255, 255, 0.8);
                 cursor: pointer;
-                // color: rgba(255, 255, 255, 0.8);
                 background-color: rgba(0, 0, 0, 0.35);
                 border-radius: 50%;
                 transition: 15350 ease;
@@ -150,73 +143,15 @@
         &-footer {
             display: flex;
             align-items: center;
-            // justify-content: space-between;
             flex-direction: row;
             .views {
                 float: right;
-                // flex-grow:0;
                 margin-left: auto;
             }
         }
     }
     
-    // Create New Guide
-    // ===================================================================================================
-    // .create-guide-header {
-    //     // box-shadow: 6px 5px 6px 5px rgba(55, 161, 100, 0.05);
-    //     box-shadow: 4px 3px 5px 0px rgba(55, 161, 100, 0.04);
-    //     position: fixed;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: space-between;
-    //     top: 60px;
-    //     padding-right: 45px;
-    //     padding-left: 45px;
-    //     margin-left: 225px;
-    //     background-color: #fff;
-    //     left: 0;
-    //     right: 0;
-    //     z-index: 2;
-    //     button {
-    //         border-radius: 500px;
-    //         border: 1px solid $dark-green;
-    //         &:hover {
-    //             border: 1px solid $dark-green;
-    //         }
-    //         &:first-child {
-    //             color: $dark-green;
-    //         }
-    //     }
-    // }
-    .trumbowyg-box {
-        margin-top: 0px;
-        border: 1px solid $border-color;
-        .trumbowyg-editor {
-            border: 1px solid transparents;
-        }
-    }
-    
-    .trumbowyg-button-pane {
-        border-color: $border-color;
-        button:not(.trumbowyg-disable):hover {
-            background-color: darken(#ecf0f1, 08%);
-        }
-    }
-    
-    .trumbowyg-button-pane .trumbowyg-button-group:not(:empty)+.trumbowyg-button-group::before {
-        background: darken($border-color, 5%);
-    }
-    
-    .trumbowyg-button-pane::after {
-        background: darken($border-color, 5%);
-    }
-    
-    .my-editor[contenteditable=true]:empty::before {
-        content: attr(placeholder);
-        color: #999;
-    }
-    /********** End of Guides Page **************/
-    
+   
     // ****************Plans***********************/
     /* This containers styling for the Guides Page */
     
@@ -230,7 +165,7 @@
         white-space: nowrap;
     }
     
-    //
+    
     .template-tabs {
         &>li {
             a {
@@ -270,16 +205,6 @@
     
     .question-actions {}
     
-    // .template-tabs>li.active>a {
-    //     border: 1px solid transparent;
-    //     border-bottom: 3px solid transparent;
-    //     &:hover {
-    //         border: 3px solid transparent;
-    //     }
-    //     &:focus {
-    //         border: 3px solid transparent;
-    //     }
-    // }
     .template-page-header {}
     
     .question-title {
