@@ -4906,37 +4906,6 @@ select {
   margin-left: auto;
 }
 
-.trumbowyg-box {
-  margin-top: 0px;
-  border: 1px solid #eee;
-}
-
-.trumbowyg-box .trumbowyg-editor {
-  border: 1px solid transparents;
-}
-
-.trumbowyg-button-pane {
-  border-color: #eee;
-}
-
-.trumbowyg-button-pane button:not(.trumbowyg-disable):hover {
-  background-color: #d5dde0;
-}
-
-.trumbowyg-button-pane .trumbowyg-button-group:not(:empty) + .trumbowyg-button-group::before {
-  background: #e1e1e1;
-}
-
-.trumbowyg-button-pane::after {
-  background: #e1e1e1;
-}
-
-.my-editor[contenteditable=true]:empty::before {
-  content: attr(placeholder);
-  color: #999;
-}
-
-/********** End of Guides Page **************/
 /* This containers styling for the Guides Page */
 .plan-description {
   display: inline-block;
