@@ -1,0 +1,185 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $body-text-color;
+    -webkit-font-smoothing: antialiased;
+    font-family: $regular-font;
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $body-text-color;
+    font-family: $regular-font;
+}
+
+div,
+p,
+span {
+    font-weight: normal;
+}
+
+.link {
+    transition: all 3ms;
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+#wrapper {
+    font-size: 1.6rem;
+}
+
+//Font Class
+.text-white {
+    color: #fff !important;
+}
+
+.text-success {
+    color: #3bb75e;
+}
+
+.text-warning {
+    color: #fad733
+}
+
+.text-danger {
+    color: #f05050
+}
+
+.text-primary {
+    color: #3676C8
+}
+
+.text-dark {
+    color: #011b33
+}
+
+.text-info {
+    color: #1279d8
+}
+
+a.text-success:hover {
+    color: #35a454
+}
+
+.text-success {
+    color: #3bb75e
+}
+
+.text-success-lt {
+    color: #48c46b
+}
+
+.text-success-lter {
+    color: #5bca7a
+}
+
+.text-success-dk {
+    color: #35a454
+}
+
+.text-success-dker {
+    color: #2f904a
+}
+
+.font-bold {
+    font-weight: bold !important;
+}
+
+.font-regular {
+    font-weight: normal !important;
+}
+
+.font-lt {
+    font-weight: 300 !important;
+}
+
+.font-xs {
+    font-size: 1.2rem !important;
+}
+
+.font-sm {
+    font-size: 1.4rem !important;
+}
+
+.font-md {
+    font-size: 1.6rem !important;
+}
+
+.font-lg {
+    font-size: 1.8rem !important;
+}
+
+.l-h-zero {
+    line-height: 0;
+}
+
+.l-h-1x {
+    line-height: 1.2 !important;
+}
+
+.l-h-2x {
+    line-height: 1.5 !important;
+}
+
+.l-h-3x {
+    line-height: 2em !important;
+}
+
+.l-s-1x {
+    letter-spacing: 1;
+}
+
+.l-s-2x {
+    letter-spacing: 2;
+}
+
+.l-s-3x {
+    letter-spacing: 3;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.text-muted {
+    // color: darken($stroke-color, 10%);
+    color: $text-muted;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+}
+
+.divider-text::before {
+    content: "";
+    display: block;
+    border-top: 1px solid $stroke-color;
+    z-index: 0;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.divider-text span {
+    position: relative;
+    z-index: 20;
+}
+
+.clear {
+    width: 100%;
+}

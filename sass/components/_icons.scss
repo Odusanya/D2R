@@ -1,0 +1,62 @@
+.icon-doc {
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/doc-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-pdf {
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/pdf-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-xls {
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/excel-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-wrapper {
+    line-height: 0 !important;
+        position: relative;
+    display: flex;
+}
+
+.icon-gold {
+    display: block;
+    text-indent: -9999px;
+    width: 48px;
+    height: 48px;
+    background: url('../images/icons/gold-plan.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.dot {
+    height: 8px;
+    width: 8px;
+    border-width: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+}
+
+
+// i {
+// 	.dropdown-menu {
+
+// 	}
+// }

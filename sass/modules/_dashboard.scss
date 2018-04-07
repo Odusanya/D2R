@@ -1,0 +1,339 @@
+    .dashboard-header {
+        position: relative;
+        padding: 15px 30px;
+        background-color: #fff;
+        border-bottom: solid 1px rgba(0, 0, 0, .05);
+        height: 70px;
+        clear: both;
+    }
+    
+    .dashboard-content {
+        position: relative;
+        background-color: transparent;
+        // height: calc(100vh - 60px);
+        // padding-bottom: 0px !important;
+    }
+    
+    .filter-group {
+        margin: 0 0 20px;
+        clear: both;
+        float: left;
+        width: 100%;
+        input {
+            width: 100%;
+        }
+    }
+    
+    .filter-wrap {
+        padding: 15px;
+        width: 250px;
+    }
+    
+    .filter-label {
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 0 10px;
+        float: left;
+        width: 100%;
+    }
+    
+    // ****************Guides***********************/
+    /* This containers styling for the Guides Page */
+    
+    .filter-parameters-wrap {
+        // border: 1px solid $border-color;
+        padding: 15px;
+        width: 100%;
+        position: relative;
+        background: white;
+        box-shadow: 2px 6px 5px 1px rgba(55, 161, 100, 0.05);
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    
+    .category {
+        &-title {
+            position: relative;
+        }
+        &-menu {
+            // display: none;
+            position: absolute;
+            // top: 5px;
+            right: 5px;
+        }
+    }
+    
+    // ****************Guides***********************/
+    /* This containers styling for the Guides Page */
+    
+    // Guides List
+    // ===================================================================================================
+    .card {
+        &-container {
+            border-radius: 3px;
+            overflow: hidden;
+            // cursor: pointer;
+        }
+        &-header {
+            max-height: 180px;
+            overflow: hidden;
+            position: relative;
+            .stuff {
+                display: none;
+                position: absolute;
+                top: 15px;
+                right: 0;
+                margin-right: 15px;
+                border: 1px solid rgba(255, 255, 255, 0.8);
+                cursor: pointer;
+                // color: rgba(255, 255, 255, 0.8);
+                background-color: rgba(0, 0, 0, 0.35);
+                border-radius: 50%;
+                transition: 15350 ease;
+                .dropdown-menu {
+                    &:after {
+                        display: none;
+                    }
+                    background-color: rgba(0, 0, 0, 0.2);
+                    min-width: 50px;
+                    border-radius: 3px;
+                    li {
+                        a {
+                            color: white;
+                            &:hover {
+                                background-color: rgba(0, 0, 0, 0.55);
+                            }
+                        }
+                    }
+                }
+                i {
+                    font-size: 22px;
+                    color: rgba(255, 255, 255, 0.8);
+                    display: inline-block;
+                    padding: 3px 14px;
+                }
+            }
+            .img-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.70) 100%);
+            }
+            .overlay-text {
+                position: absolute;
+                padding: 0 20px;
+                bottom: 7%;
+                width: 100%;
+                filter: blur(0.2px);
+                color: rgba(255, 255, 255, 0.9);
+                .category {
+                    border-radius: 50px;
+                    border: 1px solid rgba(255, 255, 255, 0.9);
+                    padding: 0 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &-info {
+            height: 165px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding-bottom: 15px;
+            cursor: pointer;
+        }
+        &-content {
+            overflow: hidden;
+        }
+        &-footer {
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            flex-direction: row;
+            .views {
+                float: right;
+                // flex-grow:0;
+                margin-left: auto;
+            }
+        }
+    }
+    
+    // Create New Guide
+    // ===================================================================================================
+    // .create-guide-header {
+    //     // box-shadow: 6px 5px 6px 5px rgba(55, 161, 100, 0.05);
+    //     box-shadow: 4px 3px 5px 0px rgba(55, 161, 100, 0.04);
+    //     position: fixed;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-between;
+    //     top: 60px;
+    //     padding-right: 45px;
+    //     padding-left: 45px;
+    //     margin-left: 225px;
+    //     background-color: #fff;
+    //     left: 0;
+    //     right: 0;
+    //     z-index: 2;
+    //     button {
+    //         border-radius: 500px;
+    //         border: 1px solid $dark-green;
+    //         &:hover {
+    //             border: 1px solid $dark-green;
+    //         }
+    //         &:first-child {
+    //             color: $dark-green;
+    //         }
+    //     }
+    // }
+    .trumbowyg-box {
+        margin-top: 0px;
+        border: 1px solid $border-color;
+        .trumbowyg-editor {
+            border: 1px solid transparents;
+        }
+    }
+    
+    .trumbowyg-button-pane {
+        border-color: $border-color;
+        button:not(.trumbowyg-disable):hover {
+            background-color: darken(#ecf0f1, 08%);
+        }
+    }
+    
+    .trumbowyg-button-pane .trumbowyg-button-group:not(:empty)+.trumbowyg-button-group::before {
+        background: darken($border-color, 5%);
+    }
+    
+    .trumbowyg-button-pane::after {
+        background: darken($border-color, 5%);
+    }
+    
+    .my-editor[contenteditable=true]:empty::before {
+        content: attr(placeholder);
+        color: #999;
+    }
+    /********** End of Guides Page **************/
+    
+    // ****************Plans***********************/
+    /* This containers styling for the Guides Page */
+    
+    // Plans List
+    // ===================================================================================================
+    .plan-description {
+        display: inline-block;
+        width: 220px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    //
+    .template-tabs {
+        &>li {
+            a {
+                border: 0px !important;
+            }
+        }
+        .active {
+            a {
+                font-weight: bold;
+                color: red;
+            }
+        }
+    }
+    
+    .template-page-height {
+        min-height: calc(100vh - 190px);
+    }
+    
+    .template-questions-group {
+        border: 1px solid $border-color;
+    }
+    
+    .template-question {
+        display: flex;
+        padding: 15px;
+        border-bottom: 1px solid $border-color;
+        cursor: move;
+    }
+    
+    .section-title {
+        flex-grow: 1;
+    }
+    
+    .question-label {}
+    
+    .question-description {}
+    
+    .question-actions {}
+    
+    // .template-tabs>li.active>a {
+    //     border: 1px solid transparent;
+    //     border-bottom: 3px solid transparent;
+    //     &:hover {
+    //         border: 3px solid transparent;
+    //     }
+    //     &:focus {
+    //         border: 3px solid transparent;
+    //     }
+    // }
+    .template-page-header {}
+    
+    .question-title {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .response-section-header {
+        margin: 20px 0px 10px;
+    }
+    
+    .template-response-question {
+        padding-bottom: 10px;
+        font-size: 1.7rem;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .template-question-answer {
+        padding-top: 10px;
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+    
+    .response-question-wrap {
+        margin-bottom: 30px;
+    }
+    
+    .respondent-info-label {
+        min-width: 140px;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+    }
+    
+    .respondent-info-fields .value {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .preview-question-wrap {
+        margin-bottom: 30px;
+    }
+    
+    .preview-question-wrap .question-title {
+        font-weight: 100;
+        font-size: 2.2rem;
+        padding-bottom: 10px;
+        color: $dark-green;
+        margin-bottom: 0;
+    }
+    
+    .preview-question-wrap .question-body {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo/favicon.png" rel="icon" />
+    <title>Scope</title>
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/vendor/sb-admin.css" rel="stylesheet"> -->
+    <link href="css/plugin/toastr.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+<body>
+     <div class="page-header">
+        <div class="login-page__header">
+            <a href="index.html">
+                <img class="logo" src="images/logo/logo.svg" alt="scope logo" height="100px">
+            </a>
+        </div>
+    </div>
+    <div class="login-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-3 col-xs-12 col-lg-4 col-lg-offset-4">
+                    <div class="text-center font-bold font-lg p-b-md m-t-xlg">Welcome to MTN Direct to Retail (D2R)</div>
+                    <div class="login-panel m-t-xlg bg-white p-r-md p-t-md p-l-md p-b-md">
+                        <div class="panel-body bg-white">
+                            <div class="page-header m-t-zero m-b-xlg">
+                                <h3 class="text-center" style="font-size: 1.8rem;"><strong>Sign In</strong></h3>
+                            </div>
+                            <form role="form" action="documents.html">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label class="form-label sr-only">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="E-mail" name="email" autofocus required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Password" name="password" type="password" value="" required>
+                                    </div>
+                                    <button class="m-b-xlg btn text-uppercase btn-lg btn-success btn-block btn-text-spaced font-bold" id="linkButton">Login</button>
+                                    <div class="form-footer text-center m-t-md">
+                                        <div><a href="forgotpassword.html">Forgot your password?</a></div>
+                                    </div>
+                                </fieldset>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="text-center font-xs m-t-md">Powered by Paystack 🔒</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+    <!-- <script src="../js/bootstrap.min.js"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+
+            $('#linkButton').click(function() {
+
+                toastr["error"]("Please try again", "Incorrect Login Details")
+
+            });
+        });
+    </script>
+</body>
+
+</html>

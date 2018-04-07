@@ -1,0 +1,21 @@
+// Core
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/fonts';
+// Utilities
+@import 'utilities/text';
+// Components
+@import 'components/buttons';
+@import 'components/nav';
+@import 'components/tables';
+@import 'components/ionicons';
+@import 'components/header';
+@import 'components/icons';
+@import 'components/form';
+// Modules
+@import 'modules/documents';
+@import 'modules/customers';
+@import 'modules/dashboard';
+
+@import 'core/layout';
+@import 'core/overrides';

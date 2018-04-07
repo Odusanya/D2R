@@ -1,0 +1,100 @@
+body {
+    background-color: #F5F4F4;
+    margin-top: 0px;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: transparent;
+    color: inherit;
+}
+
+#page-wrapper {
+    // padding: 0 10px;
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeQuality;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    &:focus {
+        text-decoration: none;
+        color: inherit;
+        outline: none;
+    }
+}
+
+input {
+    border: none;
+    outline: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+#page-wrapper {
+    background-color: transparent;
+}
+
+.icon {
+    display: inline-block;
+    font-family: 'Ionicons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page-header {
+    border-bottom: none;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+:focus {
+    outline: none;
+}
+
+.focus {
+    box-shadow: none !important;
+}
+
+.modal-header {
+    background-color: lighten($stroke-color, 60%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.no-hover {
+    &:hover {
+        background-color: transparent !important;
+    }
+}
+
+
+.login-page {
+    @include screen (small){
+        display: block !important;
+    }
+}

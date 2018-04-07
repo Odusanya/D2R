@@ -1,0 +1,53 @@
+.c-image-full {
+		width: 80px;
+		height: 80px;
+		overflow: hidden;
+}
+
+.img-centered {
+	margin: 0 auto;
+}
+
+.dashboard-content-fixed {
+    height: calc(95vh - 100px);
+    overflow-y: auto;
+}
+
+.c-info-scroll {
+	height: calc(95vh - 260px);
+    overflow-y: auto;
+}
+
+.list-footer {
+	display: block;
+	position: fixed; 
+	bottom:0; 
+	z-index: 25;
+}
+
+.star-icon-container {
+	display: inline-block;
+    position: relative;
+    width: 95px;
+    height: 14px;
+    margin-top: 10px;
+}
+
+.star-icon-is-empty {
+	background: url('../images/icons/gray-star.png');
+	width: 100%;
+}
+
+.star-icon-is-filled {
+	background: url('../images/icons/green-star.png');
+}
+
+
+.star-icon-is-empty, .star-icon-is-filled {
+	display: inline-block;
+    position: absolute;
+    height: 14px;
+    top: 0;
+    left: 0;
+}
+
